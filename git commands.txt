@@ -29,6 +29,17 @@ DEVELOPMENT PROCESS:
 7)check on the remote location whether the change is refected on remote location or not .
 
 
+===============================================================================================================
+
+
+For Updating Existing Files:
+
+1) switch to branch where the code is present  -> git checkout branch name  (Ex.git checkout feature/Division)
+2) to get latest data of branch into local folder -> git pull origin feature/Division
+3) Check local folder file is present .
+
+
+
 
 
 
