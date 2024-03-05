@@ -1,0 +1,38 @@
+
+We create repository by using git hub dash board on browser 
+Clone Repository(One time process when new repository created on remote):
+
+1) goto the remote repository 
+2) click on code button
+3) go to SSH -> Copy the SSH URL (EX.git@github.com:pritighule/Java.git) 
+4) Open Git bash in Local Folder (in PC) ->  git clone (paste Copied URL) //after this command in PC it will create folder with  repository name (Ex.Java                        folder )
+5) go to the local folder (EX.Java Folder using command -> cd Java ) // by default git bash show main branch (EX.91744@SAGAR MINGW64 /c/Priti/Java (main))
+6) create branch in above repository -> git chekout -b main
+7) push above branch on remote location by using -> git push origin main
+8) Check whether main branch is created on git remote location 
+9) Create develop branch from main branch ->git checkout -b develop  //press enter
+					  ->git push origin develop  //it will create develop branch on remote locaation
+
+==================================================================================================================
+
+DEVELOPMENT PROCESS:
+
+1)open git bash from  local repository
+2) checkout develop branch -> git checkout develop
+3) create feature branch from develop branch locally -> git checkout -b feature/Division 
+4) push branch on remote .-> git push origin feature/Division
+5) write the code file in that folder 
+6) push the code file on to the remote location by using following commands:
+	i) git add .
+	ii)git commit -a -m "Uploading Division Operation on remote location"
+	iii)git push origin feature/Division
+7)check on the remote location whether the change is refected on remote location or not .
+
+
+
+
+
+
+
+
+
