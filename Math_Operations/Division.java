@@ -18,10 +18,10 @@ public static void main(String[] args)
     System.out.println(res);
 
 }
-public static int div(int ivalue1,int ivalue2)
+public static int div(int ino1,int ino2)
         {
            
-            int ians=ivalue1/ivalue2; 
+            int ians=ino1/ino2; 
             return ians;
         }
 
