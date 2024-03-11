@@ -13,7 +13,7 @@ public class addition
         int ivalue2=sc.nextInt();
 
         int ires=addition(ivalue1,ivalue2);
-        System.out.println("Addition is:"+ires);
+        System.out.println("Addition is:="+ires);
     }
 
 
